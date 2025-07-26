@@ -1,0 +1,404 @@
+{
+  "translations": {
+    "mn": {
+      "nav": {
+        "title": "Ивээл Салон",
+        "home": "Нүүр",
+        "services": "Үйлчилгээ",
+        "testimonials": "Сэтгэгдэл",
+        "contact": "Холбоо барих"
+      },
+      "hero": {
+        "title": "Ивээл Салон нь Баянхонгор аймагт байрлах гоо сайханы үйлчилгээний төв юм.",
+        "text": "Salon Iwel-д өөрчлөлтийн урлагийг нээ. Манай мэргэжлийн засалчид, эмч нар танд хувь хүний арчилгаа, үс, арьс, эрүүл мэндийн үйлчилгээг тав тухтай орчинд санал болгоно."
+      },
+      "services": {
+        "title": "Манай Үйлчилгээ",
+        "categories": [
+          {
+            "name": "Нүүрний Гоо Засал",
+            "services": [
+              {
+                "name": "Гоо заслын цэвэрлэгээ үйлчилгээ",
+                "duration": "60 мин",
+                "price": "60,000 ₮"
+              },
+              {
+                "name": "Гоо заслын цэвэрлэгээ массаж",
+                "duration": "60 мин",
+                "price": "60,000 ₮"
+              },
+              {
+                "name": "Нүүрний гүн цэвэрлэгээ үйлчилгээ",
+                "duration": "80 мин",
+                "price": "80,000 ₮"
+              },
+              {
+                "name": "Хөнгөн цэвэрлэгээ",
+                "duration": "40 мин",
+                "price": "40,000 ₮"
+              },
+              {
+                "name": "Хөнгөн цэвэрлэгээ массажтай",
+                "duration": "60 мин",
+                "price": "50,000 ₮"
+              }
+            ]
+          },
+          {
+            "name": "Нүүрний Массаж",
+            "services": [
+              {
+                "name": "Энзимийн пилинг",
+                "duration": "70 мин",
+                "price": "15,000–45,000 ₮"
+              },
+              {
+                "name": "Хулмасны эсрэг тарилга botox",
+                "duration": "15–30 мин",
+                "price": "60,000 ₮"
+              },
+              {
+                "name": "Rose Pink нүүрний массаж",
+                "duration": "60 мин",
+                "price": "60,000 ₮"
+              },
+              {
+                "name": "Витамин сээр арчилгаа",
+                "duration": "60 мин",
+                "price": "60,000 ₮"
+              },
+              {
+                "name": "Дуслын эмчилгээ витаминтай",
+                "duration": "60 мин",
+                "price": "80,000 ₮"
+              }
+            ]
+          },
+          {
+            "name": "Тусгай Арчилгаа",
+            "services": [
+              {
+                "name": "Турк маск",
+                "duration": "30 мин",
+                "price": "25,000 ₮"
+              },
+              {
+                "name": "Турк маск массажтай",
+                "duration": "60 мин",
+                "price": "35,000 ₮"
+              }
+            ]
+          },
+          {
+            "name": "Биеийн Массаж",
+            "services": [
+              {
+                "name": "Бүтэн биеийн массаж",
+                "duration": "120 мин",
+                "price": "100,000–120,000 ₮"
+              },
+              {
+                "name": "Бүтэн биеийн халуун чулууны массаж",
+                "duration": "120 мин",
+                "price": "120,000 ₮"
+              },
+              {
+                "name": "Турмериктэй халуун тосон үйлчилгээ",
+                "duration": "120 мин",
+                "price": "150,000 ₮"
+              }
+            ]
+          },
+          {
+            "name": "Бусад Үйлчилгээ (вакс болон хэсэгчилсэн массажууд)",
+            "services": [
+              {
+                "name": "Хүзүү мөрний массаж",
+                "duration": "60 мин",
+                "price": "28,000 ₮"
+              },
+              {
+                "name": "Хөлний массаж",
+                "duration": "40 мин",
+                "price": "25,000 ₮"
+              },
+              {
+                "name": "Хөлийн массаж",
+                "duration": "60 мин",
+                "price": "40,000 ₮"
+              },
+              {
+                "name": "Хөлийн массаж гарын массаж",
+                "duration": "30 мин",
+                "price": "20,000 ₮"
+              },
+              {
+                "name": "Хүүхдийн массаж",
+                "duration": "30 мин",
+                "price": "20,000 ₮"
+              },
+              {
+                "name": "Гарын массаж",
+                "duration": "30 мин",
+                "price": "15,000 ₮"
+              },
+              {
+                "name": "Халуун тосон массаж",
+                "duration": "80 мин",
+                "price": "65,000 ₮"
+              },
+              {
+                "name": "Халуун лаа массаж",
+                "duration": "60 мин",
+                "price": "45,000 ₮"
+              },
+              {
+                "name": "Хөвсгөл лаа",
+                "duration": "10 мин",
+                "price": "50,000 ₮"
+              },
+              {
+                "name": "Хөвсгөл үнсүүр",
+                "duration": "10 мин",
+                "price": "80,000 ₮"
+              },
+              {
+                "name": "Шивээс",
+                "duration": "10 мин",
+                "price": "5,000 ₮ / см"
+              }
+            ]
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Үйлчилүүлэгчдийн Сэтгэгдэл",
+        "items": [
+          {
+            "text": "Ажилтнууд нь найрсаг бөгөөд мэргэжилтэй.",
+            "author": "Anu"
+          },
+          {
+            "text": "Нүүрний эмчилгээ маш тайвширмаар байсан. Арьс маань гайхалтай боллоо!",
+            "author": "Sara"
+          },
+          {
+            "text": "Аймгийн хамгийн сайн салон туршлага. Ивээлд орох үнхээр тухтай, бүрэн дэмжинэ!",
+            "author": "Bataa"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Бидэнтэй Холбоо Барих",
+        "location": "Тээвэрчин төв, Баянхонгол, Монгол",
+        "phone": "+976 9911-2233",
+        "email": "",
+        "hours": "Даваа-Ням: 9:00 - 21:00 "
+      },
+      "footer": {
+        "text": "© 2025 Ивээл Салон. All rights reserved."
+      }
+    },
+    "en": {
+      "nav": {
+        "title": "Iweel Salon",
+        "home": "Home",
+        "services": "Services",
+        "testimonials": "Testimonials",
+        "contact": "Contact"
+      },
+      "hero": {
+        "title": "Experience Beauty & Wellness at Salon Iwel",
+        "text": "Discover the art of transformation at Salon Iwel. Our expert stylists and therapists offer personalized hair, skin, and wellness services in a relaxing environment."
+      },
+      "services": {
+        "title": "Our Services",
+        "categories": [
+          {
+            "name": "Facial Treatments",
+            "services": [
+              {
+                "name": "Facial Cleansing Service",
+                "duration": "60 min",
+                "price": "$60"
+              },
+              {
+                "name": "Facial Cleansing with Massage",
+                "duration": "60 min",
+                "price": "$60"
+              },
+              {
+                "name": "Deep Facial Cleansing Service",
+                "duration": "80 min",
+                "price": "$80"
+              },
+              {
+                "name": "Light Cleansing",
+                "duration": "40 min",
+                "price": "$40"
+              },
+              {
+                "name": "Light Cleansing with Massage",
+                "duration": "60 min",
+                "price": "$50"
+              }
+            ]
+          },
+          {
+            "name": "Facial Massage",
+            "services": [
+              {
+                "name": "Enzyme Peeling",
+                "duration": "70 min",
+                "price": "$15–$45"
+              },
+              {
+                "name": "Anti-Wrinkle Botox Injection",
+                "duration": "15–30 min",
+                "price": "$60"
+              },
+              {
+                "name": "Rose Pink Facial Massage",
+                "duration": "60 min",
+                "price": "$60"
+              },
+              {
+                "name": "Vitamin Spine Care",
+                "duration": "60 min",
+                "price": "$60"
+              },
+              {
+                "name": "Vitamin Infusion Treatment",
+                "duration": "60 min",
+                "price": "$80"
+              }
+            ]
+          },
+          {
+            "name": "Special Care",
+            "services": [
+              {
+                "name": "Turkish Mask",
+                "duration": "30 min",
+                "price": "$25"
+              },
+              {
+                "name": "Turkish Mask with Massage",
+                "duration": "60 min",
+                "price": "$35"
+              }
+            ]
+          },
+          {
+            "name": "Body Massage",
+            "services": [
+              {
+                "name": "Full Body Massage",
+                "duration": "120 min",
+                "price": "$100–$120"
+              },
+              {
+                "name": "Full Body Hot Stone Massage",
+                "duration": "120 min",
+                "price": "$120"
+              },
+              {
+                "name": "Turmeric Hot Oil Treatment",
+                "duration": "120 min",
+                "price": "$150"
+              }
+            ]
+          },
+          {
+            "name": "Other Services (Waxing & Partial Massages)",
+            "services": [
+              {
+                "name": "Neck & Shoulder Massage",
+                "duration": "60 min",
+                "price": "$28"
+              },
+              {
+                "name": "Foot Massage",
+                "duration": "40 min",
+                "price": "$25"
+              },
+              {
+                "name": "Foot Massage",
+                "duration": "60 min",
+                "price": "$40"
+              },
+              {
+                "name": "Foot & Hand Massage",
+                "duration": "30 min",
+                "price": "$20"
+              },
+              {
+                "name": "Child Massage",
+                "duration": "30 min",
+                "price": "$20"
+              },
+              {
+                "name": "Hand Massage",
+                "duration": "30 min",
+                "price": "$15"
+              },
+              {
+                "name": "Hot Oil Massage",
+                "duration": "80 min",
+                "price": "$65"
+              },
+              {
+                "name": "Hot Candle Massage",
+                "duration": "60 min",
+                "price": "$45"
+              },
+              {
+                "name": "Khuvsgul Candle",
+                "duration": "10 min",
+                "price": "$50"
+              },
+              {
+                "name": "Khuvsgul Scraper",
+                "duration": "10 min",
+                "price": "$80"
+              },
+              {
+                "name": "Tattoo",
+                "duration": "10 min",
+                "price": "$5 per cm"
+              }
+            ]
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Client Feedback",
+        "items": [
+          {
+            "text": "Absolutely loved my new hairstyle! The staff are friendly and professional.",
+            "author": "Anu"
+          },
+          {
+            "text": "The facial treatment was so relaxing. My skin feels amazing!",
+            "author": "Sara"
+          },
+          {
+            "text": "Best salon experience in the city. Highly recommend Salon Iwel!",
+            "author": "Bataa"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "location": "123 Beauty Ave, Ulaanbaatar, Mongolia",
+        "phone": "+976 9911-2233",
+        "email": "info@saloniwel.mn",
+        "hours": "Mon-Sat: 9:00 AM - 8:00 PM"
+      },
+      "footer": {
+        "text": "© 2025 Iweel Salon. All rights reserved."
+      }
+    }
+  }
+}

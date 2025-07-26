@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ивээл Салон</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-sans text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="./img/logo/icononly.png" alt="Salon Iwel" class="h-10 w-10 rounded-full object-cover">
+        <span class="font-bold text-xl text-pink-600" id="nav-title">Ивээл Салон</span>
+      </div>
+      <!-- Hamburger button (mobile) -->
+      <button id="menu-toggle" class="md:hidden text-pink-500 focus:outline-none" aria-label="Open menu">
+        <span class="material-icons text-3xl">menu</span>
+      </button>
+      <!-- Menu -->
+      <ul id="main-menu" class="hidden md:flex space-x-6 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent shadow md:shadow-none flex-col md:flex-row z-20">
+        <li><a href="#home" class="block px-4 py-2 hover:text-pink-500 transition" id="nav-home">Нүүр</a></li>
+        <li><a href="#services" class="block px-4 py-2 hover:text-pink-500 transition" id="nav-services">Үйлчилгээ</a></li>
+        <li><a href="#testimonials" class="block px-4 py-2 hover:text-pink-500 transition" id="nav-testimonials">Сэтгэгдэл</a></li>
+        <li><a href="#contact" class="block px-4 py-2 hover:text-pink-500 transition" id="nav-contact">Холбоо барих</a></li>
+        <li>
+          <button id="lang-toggle" class="text-pink-500 hover:text-pink-700 transition">English</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-24 pb-16 bg-gradient-to-r from-[#FCE7F3] to-[#FBD6EB]">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 text-pink-600" id="hero-title">Салон Iwel-д гоо сайхан, эрүүл мэндийн туршилт</h1>
+        <p class="mb-6 text-lg" id="hero-text">Salon Iwel-д өөрчлөлтийн урлагийг нээ. Манай мэргэжлийн засалчид, эмч нар танд хувь хүний арчилгаа, үс, арьс, эрүүл мэндийн үйлчилгээг тав тухтай орчинд санал болгоно.</p>
+      </div>
+      <div class="md:w-1/2 flex justify-center">
+        <img src="./img/image.png" alt="Salon Interior" class="rounded-2xl shadow-lg w-full max-w-md object-cover">
+      </div>
+    </div>
+  </section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <h2 class="text-4xl font-extrabold text-center mb-2 text-pink-600" id="services-title">
+      Манай Үйлчилгээ
+    </h2>
+
+    <!-- Mini and centered image -->
+    <div class="flex justify-center  mb-2">
+      <img src="./img/logo/fulllogo_transparent.png" alt="Salon Interior" 
+           class="w-24 h-auto rounded-2xl object-contain">
+    </div>
+    
+    <!-- Services grid -->
+    <div id="services-container" class="grid md:grid-cols-2 gap-8 lg:gap-10">
+      <!-- Services will be dynamically inserted here -->
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-gradient-to-r from-[#FCE7F3] to-[#FBD6EB]">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-2 text-pink-600" id="testimonials-title">Клиентүүдийн Санал</h2>
+       <!-- Mini and centered image -->
+    <div class="flex justify-center  mb-2">
+      <img src="./img/logo/grayscale_transparent_nobuffer.png" alt="Salon Interior" 
+           class="w-24 h-auto rounded-2xl object-contain">
+    </div>
+      <div id="testimonials-container" class="grid md:grid-cols-3 gap-8">
+        <!-- Testimonials will be dynamically inserted here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-[#FCE7F3]">
+    <div class="container mx-auto px-4 max-w-2xl">
+      <h2 class="text-3xl font-bold text-center mb-2 text-pink-600" id="contact-title">Бидэнтэй Холбоо Барих</h2>
+       <!-- Mini and centered image -->
+    <div class="flex justify-center  mb-2">
+      <img src="./img/logo/fulllogo_transparent.png" alt="Salon Interior" 
+           class="w-24 h-auto rounded-2xl object-contain">
+    </div>
+      <div class="bg-white rounded-xl p-8 shadow space-y-4">
+        <div class="flex items-center space-x-3">
+          <span class="material-icons text-pink-600">location_on</span>
+          <span id="contact-location">123 Beauty Ave, Улаанбаатар, Монгол</span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <span class="material-icons text-pink-600">phone</span>
+          <span id="contact-phone">+976 9911-2233</span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <span class="material-icons text-pink-600">email</span>
+          <span id="contact-email">info@saloniwel.mn</span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <span class="material-icons text-pink-600">schedule</span>
+          <span id="contact-hours">Даваа-Бяам: 9:00 AM - 8:00 PM</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center text-gray-500">
+     <!-- Mini and centered image -->
+    <div class="flex justify-center  mb-2">
+      <img src="./img/logo/fulllogo_transparent.png" alt="Salon Interior" 
+           class="w-24 h-auto rounded-2xl object-contain">
+    </div>
+    <p id="footer-text">&copy; 2025 Ивээл Салон. Бүх эрх хуулиар хамгаалагдсан.</p>
+  </footer>
+
+  <!-- Google Fonts & Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script>
+    let appData = {};
+    let currentLang = 'mn';
+
+    // Fetch JSON data
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        appData = data;
+        initializePage();
+      })
+      .catch(error => console.error('Error loading data:', error));
+
+    function initializePage() {
+      updateContent();
+      
+      // Mobile menu toggle
+      const menuToggle = document.getElementById('menu-toggle');
+      const mainMenu = document.getElementById('main-menu');
+      menuToggle.addEventListener('click', () => {
+        mainMenu.classList.toggle('hidden');
+        mainMenu.classList.toggle('flex');
+      });
+
+      // Language toggle
+      document.getElementById('lang-toggle').addEventListener('click', () => {
+        currentLang = currentLang === 'mn' ? 'en' : 'mn';
+        document.getElementById('lang-toggle').textContent = currentLang === 'mn' ? 'English' : 'Монгол';
+        document.documentElement.lang = currentLang;
+        updateContent();
+      });
+    }
+
+    function updateContent() {
+      const langData = appData.translations[currentLang];
+      
+      // Update simple text elements
+      document.getElementById('nav-title').textContent = langData.nav.title;
+      document.getElementById('nav-home').textContent = langData.nav.home;
+      document.getElementById('nav-services').textContent = langData.nav.services;
+      document.getElementById('nav-testimonials').textContent = langData.nav.testimonials;
+      document.getElementById('nav-contact').textContent = langData.nav.contact;
+      
+      document.getElementById('hero-title').textContent = langData.hero.title;
+      document.getElementById('hero-text').textContent = langData.hero.text;
+      
+      document.getElementById('services-title').textContent = langData.services.title;
+      
+      document.getElementById('testimonials-title').textContent = langData.testimonials.title;
+      
+      document.getElementById('contact-title').textContent = langData.contact.title;
+      document.getElementById('contact-location').textContent = langData.contact.location;
+      document.getElementById('contact-phone').textContent = langData.contact.phone;
+      document.getElementById('contact-email').textContent = langData.contact.email;
+      document.getElementById('contact-hours').textContent = langData.contact.hours;
+      
+      document.getElementById('footer-text').textContent = langData.footer.text;
+      
+      // Generate services
+      const servicesContainer = document.getElementById('services-container');
+      servicesContainer.innerHTML = '';
+      
+      langData.services.categories.forEach((category, index) => {
+        const isWide = index === langData.services.categories.length - 1 && langData.services.categories.length % 2 !== 0;
+        
+        const serviceCard = document.createElement('div');
+        serviceCard.className = `bg-white rounded-xl shadow-lg hover:shadow-xl transition p-6 ${isWide ? 'md:col-span-2' : ''}`;
+        
+        serviceCard.innerHTML = `
+          <h3 class="text-xl font-semibold text-pink-500 mb-4">${category.name}</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left table-auto">
+              <thead>
+                <tr class="bg-pink-100 text-pink-700">
+                  <th class="px-4 py-2">${currentLang === 'mn' ? 'Үйлчилгээ' : 'Service'}</th>
+                  <th class="px-4 py-2">${currentLang === 'mn' ? 'Хугацаа' : 'Duration'}</th>
+                  <th class="px-4 py-2">${currentLang === 'mn' ? 'Үнэ' : 'Price'}</th>
+                </tr>
+              </thead>
+              <tbody class="text-gray-700 text-sm md:text-base">
+                ${category.services.map(service => `
+                  <tr class="border-b">
+                    <td class="px-4 py-2">${service.name}</td>
+                    <td class="px-4 py-2">${service.duration}</td>
+                    <td class="px-4 py-2">${service.price}</td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+        
+        servicesContainer.appendChild(serviceCard);
+      });
+      
+      // Generate testimonials
+      const testimonialsContainer = document.getElementById('testimonials-container');
+      testimonialsContainer.innerHTML = '';
+      
+      langData.testimonials.items.forEach(testimonial => {
+        const testimonialCard = document.createElement('div');
+        testimonialCard.className = 'bg-white rounded-xl p-6 shadow';
+        testimonialCard.innerHTML = `
+          <p class="italic mb-4">${testimonial.text}</p>
+          <div class="flex items-center space-x-3">
+            <img src="client${Math.floor(Math.random() * 3) + 1}.jpg" alt="${testimonial.author}" class="w-10 h-10 rounded-full object-cover">
+            <span class="font-semibold">${testimonial.author}</span>
+          </div>
+        `;
+        
+        testimonialsContainer.appendChild(testimonialCard);
+      });
+    }
+  </script>
+</body>
+</html>
